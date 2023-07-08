@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Thrift Shop" />
+    <meta name="author" content="Amrita nair" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>MyThrift Shop</title>
+  </head>
+  <body style="background-color: #f0ebe7;">
+
+    <main class="wrapper">
+        
+      <header class="header flex items-center justify-between p-5 xl:px-0">
+        <div class="logo">
+          <a href="./index.html">
+            <img src="./images/1.png" alt="MyThrift Shop" />
+          </a>
+        </div>
+
+       
+
+        <div class="cta hidden md:block">
+          <button class="btn-cta">To Know More</button>
+        </div>
+      </header>
+
+      <!-- Showcase -->
+      <section
+        class="
+          showcase
+          flex flex-col-reverse
+          md:grid
+          grid-cols-2
+          bg-black
+          md:items-center
+        "
+      >
+        <div
+          class="text text-white py-10 px-5 text-center md:text-left xl:px-20"
+        >
+          <h3 class="orange mb-10">Presenting You</h3>
+          <h1 class="font-bold text-4xl mb-5">MyThrift Shop</h1>
+          <p class="mb-5">
+            Wanna fit into the treandy world at reasonable price??<br>
+            Shop at MyThrift</p>
+            
+          
+          <br><button class="btn-showcase">Shop Now</button><br>
+        </div>
+
+        <div class="showcase-picture">
+          <img src="./images/2.jpg" alt="hero" class="w-full md:h-full" />
+        </div>
+      </section>
+
+      <!-- Section 2 -->
+      <section class="section-2 md:my-10">
+        <!-- First-card -->
+        <div class="cards relative">
+          <div class="overlay">
+            <div class="img-inner">
+                <img src="./images/3.jpg"/>
+            </div>
+          </div>
+          <article class="absolute bottom-5 text-center p-5 text-white">
+            <h3 class="font-bold text-3xl mb-5 uppercase">Latest Trends</h3>
+            <p>
+             Discover the new you by exploring the latest trends and find your own fashion.
+            </p>
+          </article>
+        </div>
+
+        <!-- Second card -->
+        <div class="cards relative">
+          <div class="overlay-1">
+            <div class="img-inner">
+                <img src="./images/4.png" alt="price">
+            </div>
+          </div>
+          <article class="absolute bottom-5 text-center p-5 text-white">
+            <h3 class="font-bold text-3xl mb-5 uppercase">Reasonable Price</h3>
+            <p>
+              Wear whatever you want with no regrets!! Get your favourite outfits at reasonable price.
+            </p>
+          </article>
+        </div>
+
+        <!-- Third card -->
+        <div class="cards relative">
+          <div class="overlay-2">
+            <div class="img-inner">
+               
+            </div>
+          </div>
+          <article class="absolute bottom-5 text-center text-white">
+            <h3 class="font-bold text-3xl mb-5 uppercase">Variety of Products</h3>
+            <p>
+              Fashion is not just about clothing!! Get all your accessories at one store.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Featured -->
+      <section class="featured px-5 py-5 xl:px-0">
+        <h3 class="font-bold text-3xl mb-5">Categories</h3>
+        <article class="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3">
+          <div class="featured__cards">
+           
+            <h4 class="font-bold mt-5 mb-1 text-2xl">Women</h4>
+            <p class="mb-5">
+             Elegant Dresses or Funky Jeans?<br> Get whatever you want!!
+            </p>
+            <button class="btn-showcase">Buy Now </button>
+          </div>
+
+          <div class="featured__cards">
+            
+            <h4 class="font-bold mt-5 mb-1 text-2xl">Men</h4>
+            <p class="mb-5">
+              First date or Road Trip with your Friends? <br>Get all your outfits here!!
+            </p>
+            <button class="btn-showcase">Buy Now</button>
+          </div>
+
+          <div class="featured__cards">
+            
+            <h4 class="font-bold mt-5 mb-1 text-2xl">Accessories</h4>
+            <p class="mb-5">
+              Your look is not complete without me. <br>Get accessories that match your vibe.
+            </p>
+            <button class="btn-showcase">Buy Now</button>
+          </div>
+        </article>
+      </section>
+    </section>
+    </main>
+  </body>
+</html>
